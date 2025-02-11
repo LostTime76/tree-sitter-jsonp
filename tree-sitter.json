@@ -1,0 +1,39 @@
+{
+  "$schema": "https://tree-sitter.github.io/tree-sitter/assets/schemas/config.schema.json",
+  "grammars": [
+    {
+      "name": "jsonp",
+      "camelcase": "jsonp",
+      "title": "JSONP",
+      "scope": "source.jsonp",
+      "file-types": [
+        "jsonp"
+      ],
+      "injection-regex": "^jsonp$",
+      "class-name": "TreeSitterJsonp"
+    }
+  ],
+  "metadata": {
+    "version": "0.1.0",
+    "license": "BSD-3",
+    "description": "Tree sitter grammar for the JSONP format",
+    "authors": [
+      {
+        "name": "colton murphy",
+        "email": "none"
+      }
+    ],
+    "links": {
+      "repository": "https://github.com/LostTime76/tree-sitter-jsonp"
+    }
+  },
+  "bindings": {
+    "c": true,
+    "go": true,
+    "node": true,
+    "python": true,
+    "rust": true,
+    "swift": true,
+    "zig": false
+  }
+}
